@@ -15,7 +15,8 @@ export class PoiService {
 
   constructor(private httpClient: HttpClient, private ea: EventAggregator, private au: Aurelia, private router: Router) {
     httpClient.configure(http => {
-      http.withBaseUrl('http://localhost:3000');
+      // http.withBaseUrl('http://localhost:3000');
+      http.withBaseUrl('https://juberjj-poi-assignment2.glitch.me');
     });
     this.getPois();
     this.getUsers();
