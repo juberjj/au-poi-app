@@ -1,6 +1,6 @@
 import { inject } from 'aurelia-framework';
 import { bindable } from 'aurelia-framework';
-import { Pois } from "../../services/types";
+import { Pois, Location } from "../../services/types";
 import { PoiService } from "../../services/services"
 
 @inject(PoiService)

@@ -1,7 +1,7 @@
-// export interface Location {
-//     lat: number;
-//     lng: number;
-//   }
+export interface Location {
+    lat: number;
+    lng: number;
+  }
   
   // export interface Pois {
   //   attractionType: string;

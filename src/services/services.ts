@@ -52,7 +52,7 @@ export class PoiService {
     });
   }
 
-  async poiadd(category: string, name: string, description: string, address: string, openingHours: string, phone: string) {
+  async poi(category: string, name: string, description: string, address: string, openingHours: string, phone: string) {
     const poi = {
       category:category,
       name:name,

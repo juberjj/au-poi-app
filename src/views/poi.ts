@@ -5,11 +5,10 @@ import { PoiService } from "../services/services";
 @inject(PoiService)
 export class Poi {
   pois: Pois[];
-  admissionFee: string[];
-
+ 
   constructor(private ds: PoiService) {
     this.pois = ds.pois;
-    //this.admissionFee = ds.admissionFee;
+   
   }
 
 }
