@@ -1,0 +1,14 @@
+<template>
+    <require from="../resources/elements/poi-form"></require>
+    <require from="../resources/elements/poi-list"></require>
+    <!-- <require from="../resources/elements/poi-map"></require> -->
+      <section class="ui raised segment">
+        <poi-map></poi-map>
+      </section>
+      <section class="ui raised segment">
+        <poi-list pois.bind="pois"></poi-list>
+      </section>
+      <section class="ui raised segment">
+        <poi-form pois.bind="pois"></poi-form>
+      </section>
+</template>
